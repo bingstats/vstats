@@ -1,0 +1,37 @@
+{
+    "name": "bingstats/vstats",
+    "description": "Drupal installation profile for self learning.",
+    "type": "drupal-custom-profile",
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "asset": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    },
+    "require": {
+        "drupal/adminimal_admin_toolbar": "^1.11",
+        "drupal/field_group": "^3.0",
+        "drupal/imce": "^2.4",
+        "drupal/link_attributes": "^1.1",
+        "drupal/module_filter": "^3.2",
+        "drupal/pathauto": "^1.8",
+        "drupal/taxonomy_manager": "^2.0",
+        "drupal/xmlsitemap": "^1.2"
+    },
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Big Fish",
+            "email": "54217807@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}

@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: webmaster
+label: 'Webmaster'
+weight: 2
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format full_html'

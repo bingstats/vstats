@@ -1,0 +1,46 @@
+name: VStats
+type: profile
+description: 'Drupal 9.x installation profile for self learning.'
+version: VERSION
+core_version_requirement: ^8 || ^9
+install:
+  - node
+  - history
+  - breakpoint
+  - ckeditor
+  - color
+  - contextual
+  - menu_link_content
+  - menu_ui
+  - datetime
+  - editor
+  - block
+  - block_content
+  - help
+  - image
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - big_pipe
+  - taxonomy
+  - dblog
+  - toolbar
+  - field_ui
+  - file
+  - views
+  - views_ui
+  - module_filter
+  - pathauto
+  - token
+  - admin_toolbar
+  - admin_toolbar_tools
+  - ban
+  - config
+  - imce
+  - media
+  - media_library
+  - taxonomy_manager
+  - xmlsitemap
+themes:
+  - seven
