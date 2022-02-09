@@ -7,7 +7,7 @@ dependencies:
   module:
     - file
 id: media.audio.media_audio_file
-name: media_audio_file
+field_name: media_audio_file
 entity_type: media
 bundle: audio
 label: 'Audio file'
