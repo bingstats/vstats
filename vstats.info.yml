@@ -37,10 +37,10 @@ install:
   - admin_toolbar_tools
   - ban
   - config
+  - flood_control
   - imce
   - media
   - media_library
   - taxonomy_manager
-  - xmlsitemap
 themes:
   - seven
