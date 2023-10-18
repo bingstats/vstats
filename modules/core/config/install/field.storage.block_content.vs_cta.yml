@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+  enforced:
+    module:
+      - vs_core
+id: block_content.vs_cta
+field_name: vs_cta
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

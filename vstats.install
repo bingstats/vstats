@@ -1,0 +1,12 @@
+<?php
+
+use Drupal\user\Entity\User;
+
+/**
+ * Implements hook_install().
+ */
+function vstats_install() {
+  $user = User::load(1);
+  $user->addRole('administrator');
+  $user->save();
+}

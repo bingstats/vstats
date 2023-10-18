@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.vs_hero
+    - field.storage.block_content.vs_text
+  module:
+    - text
+  enforced:
+    module:
+      - vs_core
+id: block_content.vs_hero.vs_text
+field_name: vs_text
+entity_type: block_content
+bundle: vs_hero
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

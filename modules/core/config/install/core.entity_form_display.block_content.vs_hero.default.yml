@@ -1,0 +1,61 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.vs_hero
+    - field.field.block_content.vs_hero.vs_cta
+    - field.field.block_content.vs_hero.vs_subtitle
+    - field.field.block_content.vs_hero.vs_text
+    - field.field.block_content.vs_hero.vs_title
+  module:
+    - link
+    - text
+  enforced:
+    module:
+      - vs_core
+id: block_content.vs_hero.default
+targetEntityType: block_content
+bundle: vs_hero
+mode: default
+content:
+  vs_cta:
+    type: link_default
+    weight: 4
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  vs_subtitle:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  vs_text:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  vs_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,65 @@
+name: VStats
+type: profile
+description: 'Drupal installation profile for commerce projects.'
+core_version_requirement: ^10
+version: VERSION
+install:
+  - admin_toolbar
+  - admin_toolbar_tools
+  - back_to_top
+  - ban
+  - big_pipe
+  - block
+  - block_content
+  - breakpoint
+  - config
+  - config_ignore
+  - contextual
+  - ckeditor5
+  - datetime
+  - dblog
+  - field_prefix
+  - field_ui
+  - file
+  - flood_control
+  - help
+  - image
+  - imce
+  - layout_builder
+  - layout_discovery
+  - media
+  - media_library
+  - module_filter
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - path
+  - page_cache
+  - reroute_email
+  - responsive_image
+  - symfony_mailer
+  - syslog
+  - taxonomy
+  - taxonomy_manager
+  - update
+  - view_password
+  - views
+  - views_ui
+  - commerce:commerce
+  - commerce:commerce_log
+  - commerce:commerce_store
+  - commerce:commerce_price
+  - commerce:commerce_product
+  - commerce:commerce_cart
+  - commerce:commerce_checkout
+  - commerce:commerce_order
+  - commerce:commerce_payment
+  - easy_breadcrumb
+  - layout_builder_operation_link
+  - views_bulk_operations
+  - views_data_export
+  - xls_serialization
+themes:
+  - batman
+  - centarro_claro

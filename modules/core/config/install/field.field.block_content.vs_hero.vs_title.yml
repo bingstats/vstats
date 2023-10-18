@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.vs_hero
+    - field.storage.block_content.vs_title
+  enforced:
+    module:
+      - vs_core
+id: block_content.vs_hero.vs_title
+field_name: vs_title
+entity_type: block_content
+bundle: vs_hero
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

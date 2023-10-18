@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+  enforced:
+    module:
+      - vs_layout
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Landing page'
+type: vs_landing_page
+description: 'Compose pages out of content blocks via the layout builder, such as the site front page.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,11 @@
+name: VStats Layout
+type: module
+core_version_requirement: ^10
+package: VStats
+dependencies:
+  - drupal:layout_builder
+  - drupal:layout_builder_modal
+  - bootstrap_layout_builder
+  - layout_builder_blocks
+  - layout_builder_modal
+  - layout_builder_operation_link

@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - vs_core
+id: vs_hero
+label: Hero
+revision: 0
+description: 'Block for adding text with optional Call to Action and Subtitle.'

@@ -1,0 +1,8 @@
+name: VStats Core
+type: module
+core_version_requirement: ^10
+package: VStats
+dependencies:
+  - drupal:block
+  - drupal:block_content
+  - drupal:link
