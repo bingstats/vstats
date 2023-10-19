@@ -1,0 +1,9 @@
+first_day: 1
+country:
+  default: CN
+timezone:
+  default: Asia/Shanghai
+  user:
+    configurable: false
+    default: 0
+    warn: false

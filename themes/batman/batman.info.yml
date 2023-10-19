@@ -1,0 +1,28 @@
+name: Batman
+type: theme
+base theme: claro
+core_version_requirement: ^10
+version: VERSION
+
+regions:
+  header: "Header"
+  pre_content: "Pre-content"
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: "Page top"
+  page_bottom: "Page bottom"
+  sidebar_first: "First sidebar"
+regions_hidden:
+  - sidebar_first
+
+libraries:
+  - claro/global-styling
+  - centarro_claro/global-style
+
+libraries-override:
+  claro/node-form:
+    css:
+      layout:
+        css/layout/node-add.css: css/layout/node.css

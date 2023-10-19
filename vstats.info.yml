@@ -1,0 +1,55 @@
+name: VStats
+type: profile
+description: 'Drupal installation profile for vstats projects.'
+core_version_requirement: ^10
+version: VERSION
+install:
+  - admin_toolbar
+  - admin_toolbar_tools
+  - back_to_top
+  - ban
+  - big_pipe
+  - block
+  - block_content
+  - breakpoint
+  - config
+  - config_ignore
+  - contextual
+  - ckeditor5
+  - datetime
+  - dblog
+  - field_prefix
+  - field_ui
+  - file
+  - flood_control
+  - help
+  - image
+  - imce
+  - layout_builder
+  - layout_discovery
+  - media
+  - media_library
+  - module_filter
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - path
+  - page_cache
+  - reroute_email
+  - responsive_image
+  - symfony_mailer
+  - syslog
+  - taxonomy
+  - taxonomy_manager
+  - view_password
+  - views
+  - views_add_button
+  - views_bulk_operations
+  - views_ui
+  - easy_breadcrumb
+  - gin_login
+  - layout_builder_operation_link
+themes:
+  - centarro_claro
+  - batman
